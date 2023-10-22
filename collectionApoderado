@@ -1,0 +1,418 @@
+{
+	"info": {
+		"_postman_id": "6832f191-7936-4f0b-8b04-1c678ae6a11a",
+		"name": "EscuelaNueva",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28120313"
+	},
+	"item": [
+		{
+			"name": "Grado",
+			"item": [
+				{
+					"name": "funAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "finById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"nombre\":\"septimo grado\",\r\n    \"estado\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n        \"nombre\": \"2 grado\",\r\n        \"estado\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/grado/enable/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"grado",
+								"enable",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seccion",
+			"item": [
+				{
+					"name": "funAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/seccion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"seccion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "finAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "finById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"nombre\":\"cuarto grado\",\r\n    \"estado\":true\r\n     \r\n \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/seccion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"seccion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Apoderado",
+			"item": [
+				{
+					"name": "funAll Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "finById Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\":\"1\",\r\n    \"nombre\":\"raul\",\r\n    \"apellidopaterno\":\"quijua\",\r\n    \"apellidomaterno\":\"barrera\",\r\n    \"documento\":\"12345678\",\r\n    \"fecha\":\"'2023-03-01\",\r\n    \"direccion\":\"mz d lt y7\",\r\n    \"telefono\":\"123456789\",\r\n    \"celular\":\"987654321\",\r\n    \"correo\":\"barrera@gmail.com\",\r\n    \"sexo\":\"masculino\",\r\n    \"estado\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Copy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n        \"nombre\": \"2 grado\",\r\n        \"estado\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable Copy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8099/escuelanueva/apoderado/enable/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8099",
+							"path": [
+								"escuelanueva",
+								"apoderado",
+								"enable",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
